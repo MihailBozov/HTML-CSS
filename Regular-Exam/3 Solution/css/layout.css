@@ -1,0 +1,154 @@
+html {
+    font-family: 'PT Sans', sans-serif;
+    /* font-family: 'PT Serif', serif; */
+}
+
+body >img {
+    display: block;
+    position:absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.7;
+    background-repeat: none;
+    background: black;
+}
+
+.page {
+    padding: 3em;
+    /* max-width: 1800px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* align-self: center; */
+}
+
+.line-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex: 1 1 100%;
+}
+
+.logo-header {
+    max-width: 3em;
+    
+}
+
+.hero-banner-text {
+    margin-left: 5em;
+    margin: 3em 0 3em 3em;
+    max-width: 20em;
+}
+
+.hero-banner-text h4 {
+    font-family: 'PT Serif', serif;
+    color: white;
+}
+
+.hero-banner-text p {
+    font-size: 0.8em;
+    padding-top: 0.8em;
+    color: white;
+}
+
+main .insights {
+    margin-top: 4em;
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+main .insights h2 {
+    font-family: 'PT Serif', serif;
+}
+
+main .insights p {
+    font-size: 0.8em;
+    padding-top: 1em;
+}
+
+main .insights p a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5em 0.8em;
+    color: #B0825C;
+    border: 2px solid #B0825C;
+}
+
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sponsor-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .sponsor-icons p {
+    background-color: #eee;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 20px;
+    aspect-ratio: 1;
+} */
+
+.sponsor-icons img {
+    max-width: 100px;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.sponsor-icons p {
+    display: block;
+    background: #ddd;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+
+}
+
+.content-footer {
+    display: flex;
+    margin-top: 2em;
+    color: white;
+    background: black;
+}
+
+.content-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.content-footer h6 {
+    padding: 1em;
+    font-size: 0.8em;
+}
+
+.additional-content-footer {
+    padding-top: 0.5em;
+    border-top: 1px solid white;
+    color: white;
+    background: black;
+}
+
+
+
+
+
+

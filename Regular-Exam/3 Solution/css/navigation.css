@@ -1,0 +1,15 @@
+
+.nav-header ul{
+    display: flex;
+    gap: 1em;
+}
+
+.nav-header ul li {
+    display: block;
+}
+
+.nav-header ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
